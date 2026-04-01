@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="authors" content=" Group 1- Chadwick Hewitt (2108178), Shante Taylor (2202919), Kevin Barnaby (2004408)">
+        <title>Contact Information · UTECH Form</title>
+        <link rel="icon" href="utech logo.jpg" type="image/jpeg">
+        <style>
+            *{
+                box-sizing:border-box;
+                font-family:'Segoe UI', Roboto, sans-serif;
+            }
+
+            body{
+                background:#e6e9ef;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                min-height:100vh;
+                margin:20px;
+            }
+
+            .form-container{
+                max-width:1000px;
+                width:100%;
+                background:white;
+                border-radius:20px;
+                box-shadow:0 20px 40px rgba(0,20,40,0.2);
+                padding:30px;
+            }
+
+            .section-title{
+                text-align:center;
+                font-size:1.8rem;
+                font-weight:600;
+                color:#0a2942;
+                border-left:6px solid #1e3a5f;
+                padding-left:15px;
+                margin-bottom:20px;
+            }
+
+            .profile-table{
+                width:100%;
+                border-collapse:collapse;
+                border:1px solid #ccd6e4;
+            }
+
+            .profile-table td{
+                border:1px solid #dde5f0;
+                padding:12px;
+                font-size:0.9rem;
+                vertical-align:top;
+            }
+
+            .label-cell{
+                background:#f5f7fb;
+                font-weight:600;
+                color:#1e3a5f;
+                width:20%;
+            }
+
+            input, select, textarea{
+                width:100%;
+                padding:8px;
+                margin-top:5px;
+                border:1px solid #b3c0d0;
+                border-radius:6px;
+            }
+
+            textarea{
+                resize:none;
+                height:80px;
+            }
+
+            .radio-group, .inline-check-group{
+                display:flex;
+                flex-wrap:wrap;
+                gap:15px;
+            }
+
+            .button-bar{
+                margin-top:30px;
+                display:flex;
+                justify-content:space-between;
+                border-top:1px solid #dce2ec;
+                padding-top:20px;
+            }
+
+            .nav-link{
+                background:#1e3a5f;
+                color:white;
+                padding:12px 30px;
+                border-radius:40px;
+                text-decoration:none;
+                font-weight:bold;
+            }
+
+            .nav-link:hover{
+                background:#142f49;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="form-container">
+
+            <div class="section-title">2.0 CONTACT INFORMATION</div>
+
+            <form>
+
+                <table class="profile-table">
+
+                    <tr>
+                    <td width="50%">
+                    <b>17. Permanent Address</b><br>
+                    Apt/Street/P.O. Box
+                    <input type="text">
+
+                    <div class="inline-row">
+                    <div>
+                    City/Town
+                    <input type="text">
+                    </div>
+                    <div>
+                    Parish
+                    <input type="text">
+                    </div>
+                    <div>
+                    Country
+                    <select>
+                        <option>Jamaica</option>
+                        <option>Cuba</option>
+                        <option>Trinidad & Tobago</option>
+                        <option>Guyana</option>
+                        <option>Belize</option>
+                        <option>Cayman Islands</option>
+                        <option>Barbados</option>
+                        <option>Antigua & Barbuda</option>
+                        <option>Guatemala</option>
+                        <option>St. Lucia</option>
+                    </select>
+                    </div>
+                    </div>
+
+                    <br>
+                    <b>18. Home Phone</b>
+                    <input type="tel">
+
+                    <b>19. Cellular Phone</b>
+                    <input type="tel">
+                    </td>
+
+                    <td width="50%">
+                    <b>20. Term Address</b> 
+                    <small>(if you reside on Hall please provide full details)</small><br>
+                    Apt/Street/P.O. Box
+                    <input type="text">
+
+                    <div class="inline-row">
+                    <div>
+                    City/Town
+                    <input type="text">
+                    </div>
+                    <div>
+                    Parish
+                    <input type="text">
+                    </div>
+                    <div>
+                    Country
+                    <select>
+                        <option>Jamaica</option>
+                        <option>Cuba</option>
+                        <option>Trinidad & Tobago</option>
+                        <option>Guyana</option>
+                        <option>Belize</option>
+                        <option>Cayman Islands</option>
+                        <option>Barbados</option>
+                        <option>Antigua & Barbuda</option>
+                        <option>Guatemala</option>
+                        <option>St. Lucia</option>
+                    </select>
+                    </div>
+                    </div>
+
+                    <br>
+                    <b>21. Home Phone</b>
+                    <input type="tel">
+
+                    <b>22. Cellular Phone</b>
+                    <input type="tel">
+                    </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                        <b>23. E-mail Address</b>
+                        <input type="email" style="max-width:400px;">
+                        </td>
+                    </tr>
+
+                </table>
+
+                <div class="button-bar">
+                    <a href="Biographic 3.0.html" class="nav-link">Previous Page: Biographic Profile</a>
+                    <a href="Submit 3.0.html" class="nav-link">Submit Form</a>
+                </div>
+
+            </form>
+
+        </div>
+
+    </body>
+</html>

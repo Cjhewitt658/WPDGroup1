@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="authors" content=" Group 1- Chadwick Hewitt (2108178), Shante Taylor (2202919), Kevin Barnaby (2004408)">
+        <title>Login · UTECH Scholarship Form</title>
+        <link rel="icon" href="utech logo.jpg" type="image/jpeg">
+
+        <style>
+            *{
+                box-sizing:border-box;
+                font-family:'Segoe UI', Roboto, sans-serif;
+            }
+
+            body{
+                background:#e6e9ef;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                min-height:100vh;
+                margin:20px;
+            }
+
+            .form-container{
+                max-width:500px;
+                width:100%;
+                background:white;
+                border-radius:20px;
+                box-shadow:0 20px 40px rgba(0,20,40,0.2);
+                padding:30px;
+            }
+
+            .header{
+                display:flex;
+                align-items:center;
+                gap:15px;
+            }
+
+            .header img{
+                width:80px;
+            }
+
+            .header-text{
+                flex:1;
+                text-align:center;
+            }
+
+            .header-text h2{
+                margin:3px;
+                font-size:1.1rem;
+                color:#0a2942;
+            }
+
+            .header-text h3{
+                margin:3px;
+                font-weight:500;
+            }
+
+            .section-title{
+                text-align:center;
+                font-size:1.4rem;
+                font-weight:600;
+                color:#0a2942;
+                margin:25px 0;
+                text-decoration:underline;
+            }
+
+            .form-group{
+                margin-bottom:20px;
+            }
+
+            label{
+                font-weight:600;
+                color:#1e3a5f;
+            }
+
+            input{
+                width:100%;
+                padding:10px;
+                margin-top:6px;
+                border:1px solid #b3c0d0;
+                border-radius:6px;
+            }
+
+            input:focus{
+                border-color:#1e3a5f;
+                outline:none;
+            }
+
+            .button-bar{
+                margin-top:25px;
+                display:flex;
+                justify-content:center;
+            }
+
+            .nav-link{
+                background:#1e3a5f;
+                color:white;
+                padding:12px 40px;
+                border-radius:40px;
+                border:none;
+                font-weight:bold;
+                cursor:pointer;
+            }
+
+            .nav-link:hover{
+                background:#142f49;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="form-container">
+
+            <div class="header">
+                <img src="utech logo.jpg" alt="UTECH Logo">
+
+                <div class="header-text">
+                    <h2>UNIVERSITY OF TECHNOLOGY, JAMAICA</h2>
+                    <h3>FINANCIAL AID OFFICE</h3>
+                    <h2><b>SCHOLARSHIP APPLICATION PORTAL</b></h2>
+                </div>
+            </div>
+
+            <div class="section-title">Login</div>
+
+            <form action="Instructions 3.0.html">
+
+                <div class="form-group">
+                    <label>Username / Student ID</label>
+                    <input type="text" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" required>
+                </div>
+
+                <div class="button-bar">
+                    <button type="submit" class="nav-link">Login</button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </body>
+</html>
